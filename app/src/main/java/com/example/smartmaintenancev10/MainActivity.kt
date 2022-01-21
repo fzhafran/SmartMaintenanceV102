@@ -21,41 +21,19 @@ class MainActivity : AppCompatActivity() {
            val intent= Intent(this, ScannerActivity::class.java)
             startActivity(intent);
         }
+
         cardform.setOnClickListener {
-            val i = Intent (Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/file/d/17O5Wof5INqNq-mwFiSPsiImXFR5lNyB3/view?usp=sharing"))
+            val i = Intent (Intent.ACTION_VIEW, Uri.parse("https://dosys.medionindonesia.com/share/page/site/medion/document-details?nodeRef=workspace://SpacesStore/a66b1f38-754f-4ba3-8f03-aff2fa725665"))
             startActivity(i)
-        }
-        cardspec.setOnClickListener {
-            val intent = Intent(this,sub_activity_spesification::class.java)
-            startActivity(intent);
-        }
-        cardmanual.setOnClickListener {
-            val intent = Intent(this,sub_activity_manualbook::class.java)
-            startActivity(intent);
-        }
-        cardpk.setOnClickListener {
-            val intent = Intent(this,sub_activity_pk::class.java)
-            startActivity(intent);
-        }
-        cardperformance.setOnClickListener {
-            val intent = Intent(this,sub_activity_performance::class.java)
-            startActivity(intent);
-        }
-        cardstandard.setOnClickListener {
-            val intent = Intent(this,sub_activity_standardmtc::class.java)
-            startActivity(intent);
-        }
-        cardwiring.setOnClickListener {
-            val intent = Intent(this,sub_activity_wiring::class.java)
-            startActivity(intent);
-        }
-        cardhistory.setOnClickListener {
-            val intent = Intent(this,sub_activity_history::class.java)
-            startActivity(intent);
         }
 
     }
+    fun main(args: Array<String>){
 
+        val equipid : String
+
+
+    }
 
 }
 
