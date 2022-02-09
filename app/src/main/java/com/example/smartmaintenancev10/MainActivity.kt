@@ -28,12 +28,6 @@ class MainActivity : AppCompatActivity() {
         }
 
     }
-    fun main(args: Array<String>){
-
-        val equipid : String
-
-
-    }
 
 }
 

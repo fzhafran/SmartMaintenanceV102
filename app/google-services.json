@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "601891273843",
+    "project_id": "smartmaintenance",
+    "storage_bucket": "smartmaintenance.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601891273843:android:93653b5f19a4a03811fe06",
+        "android_client_info": {
+          "package_name": "com.febrian.qrbarcodescanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "601891273843-9rcpilksb711ia4t0uig8laip2jgrvfq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8Vhgb0-b3gfBbwWg6ppsaKR7ZToSWq54"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "601891273843-9rcpilksb711ia4t0uig8laip2jgrvfq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
